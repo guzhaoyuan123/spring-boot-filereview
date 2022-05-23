@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://124.221.182.86:3306/filereview?serverTimezone=UTC
+      username: root
+      password: gzy@KG123
+
+#      ????????  ??  ?????????
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
