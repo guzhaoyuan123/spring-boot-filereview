@@ -8,6 +8,10 @@ spring:
       url: jdbc:mysql://124.221.182.86:3306/filereview?serverTimezone=UTC
       username: root
       password: gzy@KG123
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
 
 #      ????????  ??  ?????????
 mybatis-plus:
